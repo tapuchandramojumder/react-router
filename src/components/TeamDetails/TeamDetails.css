@@ -1,0 +1,60 @@
+.home-page{
+    margin:0;
+    padding:0;
+   
+   
+}
+.first-section{
+    /* background-image: url(../../Photo/Football-stadium.jpg); */
+   
+    text-align:center;
+    line-height:440px;
+   
+  
+}
+
+.first-section img{
+ 
+ text-align:center;
+ line-height:440px;
+ width:200px;
+ border-radius:10px;
+ 
+}
+.second-section{
+    background-color:rgb(4, 4, 31);
+    display:inline-block;
+    width:100%;
+    height:100%;
+    text-align:center;
+    align-items:center;
+    
+}
+.second-inner{
+   display:inline-block;
+   background-color:blue;
+  text-align:center;
+   width: 60%;
+   height:100%;
+   margin:60px auto;
+   padding:20px;
+   border-radius:10px;
+   grid-template-columns:1fr 1fr;
+   
+   
+}
+.child-inner{
+    float:left;
+    color:white;
+   
+}
+.footer-section{
+    color:white;
+    padding:50px;
+}
+@media screen and (max-width: 480px) {
+    .img {
+      height:260px;
+      width:200px;
+    }
+  }
